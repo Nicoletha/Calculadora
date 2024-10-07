@@ -160,5 +160,19 @@ namespace Calculadora
             numeroActual = numeroActual / 100;
             Pantalla.Text = numeroActual.ToString();
         }
+
+        private void Eliminar(object sender, EventArgs e)
+        {
+            // Get the current text in the Entry
+            string currentText = Pantalla.Text;
+
+            // Check if there's any text to delete
+            if (!string.IsNullOrEmpty(currentText))
+            {
+                // Remove the last character
+                Pantalla.Text = currentText.Substring(0, currentText.Length - 1);
+            }
+        }
+
     }
 }

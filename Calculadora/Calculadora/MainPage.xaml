@@ -55,8 +55,9 @@
             <Button Text="+" Grid.Row="4" Grid.Column="3" BackgroundColor="Orange" TextColor="White" CornerRadius="60" FontSize="24" WidthRequest="75" HeightRequest="75" Clicked="Operador" />
 
             <!-- Fila 5 -->
-            <Button Text="0" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#333333" TextColor="White" HorizontalOptions="FillAndExpand" CornerRadius="60" FontSize="24" WidthRequest="75" HeightRequest="75" Clicked="Numero" />
-            <Button Text="." Grid.Row="5" Grid.Column="2" BackgroundColor="#333333" TextColor="White" CornerRadius="60" FontSize="24" WidthRequest="75" HeightRequest="75" Clicked="Decimal" />
+            <Button Text="0" Grid.Row="5" Grid.Column="0" BackgroundColor="#333333" TextColor="White" HorizontalOptions="FillAndExpand" CornerRadius="60" FontSize="24" WidthRequest="75" HeightRequest="75" Clicked="Numero" />
+            <Button Text="." Grid.Row="5" Grid.Column="1" BackgroundColor="#333333" TextColor="White" CornerRadius="60" FontSize="24" WidthRequest="75" HeightRequest="75" Clicked="Decimal" />
+            <Button Text="Del" Grid.Row="5" Grid.Column="2" BackgroundColor="DarkGray" TextColor="Black" CornerRadius="60" FontSize="24" WidthRequest="75" HeightRequest="75" Clicked="Eliminar" />
             <Button Text="=" Grid.Row="5" Grid.Column="3" BackgroundColor="Orange" TextColor="White" CornerRadius="60" FontSize="24" WidthRequest="75" HeightRequest="75" Clicked="Calcular" />
         </Grid>
     </ContentPage.Content>
